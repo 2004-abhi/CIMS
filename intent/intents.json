@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Hey there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "See you",
+                "Talk to you later",
+                "I have to go",
+                "Catch you later"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "Thank you so much",
+                "I appreciate it",
+                "That's helpful",
+                "Thanks for the help"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help me",
+                "I need help",
+                "Can you help me?",
+                "What can you do?",
+                "How can you help me?",
+                "I don't know what to do",
+                "I need assistance"
+            ]
+        },
+        {
+            "tag": "information_query",
+            "patterns": [
+                "What information do you have?",
+                "Tell me about the available information",
+                "I want some information",
+                "Can you give me information?",
+                "I have a question",
+                "I want to know something",
+                "Can you answer my question?"
+            ]
+        },
+        {
+            "tag": "document_query",
+            "patterns": [
+                "Search the documents",
+                "Find information in the documents",
+                "What does the document say?",
+                "Search for this information in the documents",
+                "Find this in the uploaded document",
+                "Can you search the documents?",
+                "I want information from the documents"
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                "I don't understand",
+                "Something else",
+                "I have another question",
+                "This is not what I asked",
+                "I don't know",
+                "Can you understand me?",
+                "None of these"
+            ]
+        }
+    ]
+}
