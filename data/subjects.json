@@ -1,0 +1,57 @@
+
+{
+  "semester_1": [
+    {
+      "code": "MAT 101",
+      "name": "Linear Algebra and Calculus"
+    },
+    {
+      "code": "PHT 100",
+      "name": "Engineering Physics A (for Circuit Branches)"
+    },
+    {
+      "code": "PHT 110",
+      "name": "Engineering Physics B (for Non-Circuit Branches)"
+    },
+    {
+      "code": "CYT 100",
+      "name": "Engineering Chemistry"
+    },
+    {
+      "code": "EST 100",
+      "name": "Engineering Mechanics"
+    },
+    {
+      "code": "EST 110",
+      "name": "Engineering Graphics"
+    },
+    {
+      "code": "EST 120",
+      "name": "Basics of Civil and Mechanical Engineering"
+    },
+    {
+      "code": "EST 130",
+      "name": "Basics of Electrical and Electronics Engineering"
+    },
+    {
+      "code": "HUN 101",
+      "name": "Life Skills"
+    },
+    {
+      "code": "PHL 120",
+      "name": "Engineering Physics Lab"
+    },
+    {
+      "code": "CYL 120",
+      "name": "Engineering Chemistry Lab"
+    },
+    {
+      "code": "ESL 120",
+      "name": "Civil and Mechanical Workshop"
+    },
+    {
+      "code": "ESL 130",
+      "name": "Electrical and Electronics Workshop"
+    }
+  ]
+}

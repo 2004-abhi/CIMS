@@ -1,14 +1,18 @@
+
 from flask import Flask, request, jsonify, render_template
 import joblib
+import json
 
 app = Flask(__name__)
 
-
-# Load the trained model
+# Load the trained intent model
 model = joblib.load("intent/model/intent_model.pkl")
-
-# Load the TF-IDF vectorizer
 vectorizer = joblib.load("intent/model/tfidf_vectorizer.pkl")
+
+# Load structured subject data
+with open("data/subjects.json", "r", encoding="utf-8") as file:
+    subjects_data = json.load(file)
+
 
 @app.route("/")
 def home():
@@ -17,23 +21,63 @@ def home():
 
 @app.route("/predict", methods=["POST"])
 def predict():
+    data = request.get_json(silent=True) or {}
+    message = data.get("message", "").strip()
 
-    # Get the JSON data sent by the user
-    data = request.get_json()
+    if not message:
+        return jsonify({"response": "Please enter a question."}), 400
 
-    # Get the message
-    message = data.get("message", "")
+    # Answer semester-subject questions using exact structured data
+    normalized_message = message.lower()
 
-    # Convert message into TF-IDF features
+    semester_keywords = [
+        "semester 1",
+        "semester i",
+        "first semester",
+        "sem 1",
+        "s1"
+    ]
+
+    subject_keywords = ["subject", "subjects", "course", "courses"]
+
+    if (
+        any(keyword in normalized_message for keyword in semester_keywords)
+        and any(keyword in normalized_message for keyword in subject_keywords)
+    ):
+        subjects = subjects_data.get("semester_1", [])
+
+        answer = "Semester 1 subjects:\n" + "\n".join(
+            f"{subject['code']} - {subject['name']}"
+            for subject in subjects
+        )
+
+        return jsonify({
+            "message": message,
+            "intent": "semester_subject_query",
+            "response": answer
+        })
+
+    # Use the existing intent classifier for other questions
     X = vectorizer.transform([message])
-
-    # Predict the intent
     prediction = model.predict(X)[0]
 
-    # Return the result
+    responses = {
+        "greeting": "Hello! How can I help you?",
+        "help": "I can help with college information and syllabus questions.",
+        "thanks": "You're welcome!",
+        "goodbye": "Goodbye! Have a great day!",
+        "document_query": "Document search will be connected next.",
+        "information_query": "Please tell me what college information you need.",
+        "unknown": "Sorry, I couldn't understand your question."
+    }
+
     return jsonify({
         "message": message,
-        "intent": prediction
+        "intent": prediction,
+        "response": responses.get(
+            prediction,
+            "Sorry, I couldn't understand your question."
+        )
     })
 
 

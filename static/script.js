@@ -1,104 +1,84 @@
-async function sendMessage() {
+
+console.log("CIMS JavaScript loaded!");
+
+document.addEventListener("DOMContentLoaded", function () {
 
     const input = document.getElementById("messageInput");
+    const sendButton = document.getElementById("sendButton");
+    const chatBox = document.getElementById("chatBox");
 
-    const message = input.value.trim();
-
-    if (message === "") {
+    if (!input || !sendButton || !chatBox) {
+        console.error("CIMS: HTML elements are missing!");
         return;
     }
 
+    async function sendMessage() {
 
-    // Display user message
-    addMessage(message, "user");
+        const message = input.value.trim();
 
+        if (message === "") {
+            return;
+        }
 
-    // Clear input
-    input.value = "";
+        addMessage(message, "user");
+        input.value = "";
+        sendButton.disabled = true;
 
+        try {
+            const response = await fetch("/predict", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ message: message })
+            });
 
-    // Send message to Flask
-    const response = await fetch("/predict", {
+            const data = await response.json();
 
-        method: "POST",
+            if (!response.ok) {
+                throw new Error(data.response || "Request failed");
+            }
 
-        headers: {
-            "Content-Type": "application/json"
-        },
+            addMessage(
+                data.response || "Sorry, I couldn't understand your question.",
+                "bot"
+            );
 
-        body: JSON.stringify({
-            message: message
-        })
+        } catch (error) {
+            console.error("CIMS request error:", error);
+            addMessage(
+                "Unable to get a response. Check the server and Console.",
+                "bot"
+            );
+        } finally {
+            sendButton.disabled = false;
+            input.focus();
+        }
+    }
 
+    function addMessage(message, type) {
+
+        const messageDiv = document.createElement("div");
+        messageDiv.classList.add("message");
+
+        if (type === "user") {
+            messageDiv.classList.add("user-message");
+        } else {
+            messageDiv.classList.add("bot-message");
+        }
+
+        messageDiv.textContent = message;
+        chatBox.appendChild(messageDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    sendButton.addEventListener("click", sendMessage);
+
+    input.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            sendMessage();
+        }
     });
 
-
-    // Get Flask response
-    const data = await response.json();
-
-
-    // Display bot response
-    let botMessage = "";
-
-
-    if (data.intent === "greeting") {
-        botMessage = "Hello! 👋 How can I help you?";
-    }
-
-    else if (data.intent === "help") {
-        botMessage = "Sure! I can help you with college-related information.";
-    }
-
-    else if (data.intent === "thanks") {
-        botMessage = "You're welcome! 😊";
-    }
-
-    else if (data.intent === "goodbye") {
-        botMessage = "Goodbye! Have a great day! 👋";
-    }
-
-    else if (data.intent === "document_query") {
-        botMessage = "Sure! I can help you search the college documents.";
-    }
-
-    else if (data.intent === "information_query") {
-        botMessage = "Sure! Please tell me what information you need.";
-    }
-
-    else {
-        botMessage = "Sorry, I didn't understand that. Could you please try again?";
-    }
-
-
-    addMessage(botMessage, "bot");
-}
-
-
-function addMessage(message, type) {
-
-    const chatBox = document.getElementById("chatBox");
-
-
-    const messageDiv = document.createElement("div");
-
-    messageDiv.classList.add("message");
-
-
-    if (type === "user") {
-        messageDiv.classList.add("user-message");
-    }
-
-    else {
-        messageDiv.classList.add("bot-message");
-    }
-
-
-    messageDiv.textContent = message;
-
-
-    chatBox.appendChild(messageDiv);
-
-
-    // Scroll to latest message
-    chatBox.scrollTop = chatBox.scrollHeight;
-}
+});
