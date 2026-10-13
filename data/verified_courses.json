@@ -1,0 +1,579 @@
+[
+  {
+    "course_code": "ESL 130",
+    "title_candidates": [
+      "ELECTRICAL & ELECTRONICS WORKSHOP"
+    ],
+    "pdf_pages": [
+      99,
+      209
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSL 201",
+    "title_candidates": [
+      "DATA STRUCTURES LAB"
+    ],
+    "pdf_pages": [
+      258
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "MAT 206",
+    "title_candidates": [
+      "GRAPH THEORY BSC 3 1 0 4"
+    ],
+    "pdf_pages": [
+      307
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSL 202",
+    "title_candidates": [
+      "DIGITAL LAB CATEGORY L T P CREDIT"
+    ],
+    "pdf_pages": [
+      359
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSL204",
+    "title_candidates": [
+      "OPERATING SYSTEMS LAB"
+    ],
+    "pdf_pages": [
+      364
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST 292",
+    "title_candidates": [
+      "Number Theory Honours 4 0 0 4 2019"
+    ],
+    "pdf_pages": [
+      407
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "MCN201",
+    "title_candidates": [
+      "SUSTAINABLE ENGINEERING CATEGORY L T P CREDIT"
+    ],
+    "pdf_pages": [
+      448
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "EST 200",
+    "title_candidates": [
+      "DESIGN AND ENGINEERING"
+    ],
+    "pdf_pages": [
+      453,
+      475
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "HUT 200",
+    "title_candidates": [
+      "Professional Ethics 2 0 0 2 2"
+    ],
+    "pdf_pages": [
+      462,
+      484
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST 301",
+    "title_candidates": [
+      "Formal Languages and Automata Theory"
+    ],
+    "pdf_pages": [
+      496
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSL332",
+    "title_candidates": [
+      "NETWORKING LAB"
+    ],
+    "pdf_pages": [
+      686
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "MCN 301",
+    "title_candidates": [
+      "Disaster Management Module 1"
+    ],
+    "pdf_pages": [
+      853
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "HUT 300",
+    "title_candidates": [
+      "Industrial Economics &",
+      "Industrial Economics & Foreign Trade"
+    ],
+    "pdf_pages": [
+      861,
+      864
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "HUT 310",
+    "title_candidates": [
+      "Management for Engineers (35 hrs)"
+    ],
+    "pdf_pages": [
+      875
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST401",
+    "title_candidates": [
+      "ARTIFICIAL INTELLIGENCE"
+    ],
+    "pdf_pages": [
+      886
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSL411",
+    "title_candidates": [
+      "COMPILER LAB CATEGORY L T P CREDIT"
+    ],
+    "pdf_pages": [
+      896
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSQ413",
+    "title_candidates": [
+      "SEMINAR CATEGORY L T P CREDIT"
+    ],
+    "pdf_pages": [
+      900
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSD415",
+    "title_candidates": [
+      "PROJECT PHASE I CATEGORY L T P CREDIT"
+    ],
+    "pdf_pages": [
+      903
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST413",
+    "title_candidates": [
+      "MACHINE LEARNING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      911
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST423",
+    "title_candidates": [
+      "CLOUD COMPUTING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      925
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST433",
+    "title_candidates": [
+      "SECURITY IN COMPUTING"
+    ],
+    "pdf_pages": [
+      936
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST463",
+    "title_candidates": [
+      "WEB PROGRAMMING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      955
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST473",
+    "title_candidates": [
+      "NATURAL LANGUAGE PROCESSING"
+    ],
+    "pdf_pages": [
+      968
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST415",
+    "title_candidates": [
+      "INTRODUCTION TO MOBILE COMPUTING"
+    ],
+    "pdf_pages": [
+      980
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST425",
+    "title_candidates": [
+      "INTRODUCTION TO DEEP LEARNING"
+    ],
+    "pdf_pages": [
+      989
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST435",
+    "title_candidates": [
+      "COMPUTER GRAPHICS CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1000
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST455",
+    "title_candidates": [
+      "OBJECT ORIENTED CONCEPTS"
+    ],
+    "pdf_pages": [
+      1019
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSD481",
+    "title_candidates": [
+      "MINI PROJECT CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1032
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST497",
+    "title_candidates": [
+      "REINFORCEMENT LEARNING"
+    ],
+    "pdf_pages": [
+      1048
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST499",
+    "title_candidates": [
+      "LOGIC FOR COMPUTER SCIENCE"
+    ],
+    "pdf_pages": [
+      1062
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST402",
+    "title_candidates": [
+      "DISTRIBUTED COMPUTING"
+    ],
+    "pdf_pages": [
+      1075
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST404",
+    "title_candidates": [
+      "COMPREHENSIVE COURSE VIVA"
+    ],
+    "pdf_pages": [
+      1086
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSD416",
+    "title_candidates": [
+      "PROJECT PHASE II"
+    ],
+    "pdf_pages": [
+      1087
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST414",
+    "title_candidates": [
+      "DEEP LEARNING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1097
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST424",
+    "title_candidates": [
+      "PROGRAMMING PARADIGMS"
+    ],
+    "pdf_pages": [
+      1110
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST434",
+    "title_candidates": [
+      "NETWORK SECURITY PROTOCOLS"
+    ],
+    "pdf_pages": [
+      1121
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST444",
+    "title_candidates": [
+      "SOFT COMPUTING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1130
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST454",
+    "title_candidates": [
+      "FUZZY SET THEORY"
+    ],
+    "pdf_pages": [
+      1142
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST464",
+    "title_candidates": [
+      "EMBEDDED SYSTEMS CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1155
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST426",
+    "title_candidates": [
+      "CLIENT SERVER ARCHITECTURE"
+    ],
+    "pdf_pages": [
+      1188
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST436",
+    "title_candidates": [
+      "PARALLEL COMPUTING"
+    ],
+    "pdf_pages": [
+      1197
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST446",
+    "title_candidates": [
+      "DATA COMPRESSION TECHNIQUES"
+    ],
+    "pdf_pages": [
+      1209
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST466",
+    "title_candidates": [
+      "DATA MINING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1217
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST476",
+    "title_candidates": [
+      "MOBILE COMPUTING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1230
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST418",
+    "title_candidates": [
+      "HIGH PERFORMANCE COMPUTING"
+    ],
+    "pdf_pages": [
+      1240
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST428",
+    "title_candidates": [
+      "BLOCKCHAIN TECHNOLOGIES"
+    ],
+    "pdf_pages": [
+      1251
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST438",
+    "title_candidates": [
+      "IMAGE PROCESSING TECHNIQUE"
+    ],
+    "pdf_pages": [
+      1261
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST448",
+    "title_candidates": [
+      "INTERNET OF THINGS"
+    ],
+    "pdf_pages": [
+      1272
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST458",
+    "title_candidates": [
+      "SOFTWARE TESTING CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1282
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CST468",
+    "title_candidates": [
+      "BIOINFORMATICS CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1295
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSD482",
+    "title_candidates": [
+      "MINI PROJECT CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1316
+    ],
+    "scheme": "2019",
+    "verified": false
+  },
+  {
+    "course_code": "CSD496",
+    "title_candidates": [
+      "MINI PROJECT CATEGORY L T P CREDIT YEAR OF"
+    ],
+    "pdf_pages": [
+      1321
+    ],
+    "scheme": "2019",
+    "verified": false
+  }
+]

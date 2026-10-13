@@ -1,7 +1,20 @@
 
+# Python virtual environment
 venv/
-.venv/
 __pycache__/
 *.py[cod]
-.env
+
+# Local ChromaDB database
 chroma_db/
+
+# Generated PDF audit data
+data/pdf_full_text.jsonl
+data/pdf_page_inventory.csv
+data/semester_page_index.csv
+data/course_candidates.txt
+data/course_heading_candidates.csv
+data/course_page_review.csv
+data/course_heading_review_v2.csv
+
+# Local environment variables
+.env
