@@ -1,0 +1,32 @@
+﻿course_code,course_title,semester,category,evidence_pdf_page,verification_status
+CST 301,FORMAL LANGUAGES AND AUTOMATA THEORY,V,PCC,490,Verified from curriculum index
+CST 303,COMPUTER NETWORKS,V,PCC,490,Verified from curriculum index
+CST 305,SYSTEM SOFTWARE,V,PCC,490,Verified from curriculum index
+CST 307,MICROPROCESSORS AND MICROCONTROLLERS,V,PCC,490,Verified from curriculum index
+CST 309,MANAGEMENT OF SOFTWARE SYSTEMS,V,PCC,490,Verified from curriculum index
+CSL 331,SYSTEM SOFTWARE AND MICROPROCESSORS LAB,V,PCC,490,Verified from curriculum index
+CSL 333,DATABASE MANAGEMENT SYSTEMS LAB,V,PCC,490,Verified from curriculum index
+CST 381,CONCEPTS IN SOFTWARE ENGINEERING,V,Minor,490,Verified from curriculum index
+CST 383,CONCEPTS IN MACHINE LEARNING,V,Minor,490,Verified from curriculum index
+CST 385,CLIENT SERVER SYSTEMS,V,Minor,490,Verified from curriculum index
+CST 393,CRYPTOGRAPHIC ALGORITHMS,V,Honours,490,Verified from curriculum index
+CST 395,NEURAL NETWORKS AND DEEP LEARNING,V,Honours,490,Verified from curriculum index
+CST 397,PRINCIPLES OF MODEL CHECKING,V,Honours,490,Verified from curriculum index
+CST 302,COMPILER DESIGN,VI,PCC,491,Verified from curriculum index
+CST 304,COMPUTER GRAPHICS AND IMAGE PROCESSING,VI,PCC,491,Verified from curriculum index
+CST 306,ALGORITHM ANALYSIS AND DESIGN,VI,PCC,491,Verified from curriculum index
+CST 308,COMPREHENSIVE COURSE WORK,VI,PCC,491,Verified from curriculum index
+CSL 332,NETWORKING LAB,VI,PCC,491,Verified from curriculum index
+CSD 334,MINI PROJECT,VI,PCC,491,Verified from curriculum index
+CST 312,FOUNDATIONS OF MACHINE LEARNING,VI,PEC,491,Verified from curriculum index
+CST 322,DATA ANALYTICS,VI,PEC,491,Verified from curriculum index
+CST 332,FOUNDATIONS OF SECURITY IN COMPUTING,VI,PEC,491,Verified from curriculum index
+CST 342,AUTOMATED VERIFICATION,VI,PEC,491,Verified from curriculum index
+CSL 362,PROGRAMMING IN PYTHON,VI,PEC,491,Verified from curriculum index
+CST 372,DATA AND COMPUTER COMMUNICATION,VI,PEC,491,Verified from curriculum index
+CST 382,INTRODUCTION TO SOFTWARE TESTING,VI,Minor,491,Verified from curriculum index
+CST 384,CONCEPTS IN DEEP LEARNING,VI,Minor,491,Verified from curriculum index
+CST 386,WIRELESS NETWORKS AND IOT APPLICATIONS,VI,Minor,491,Verified from curriculum index
+CST 394,NETWORK SECURITY,VI,Honours,491,Verified from curriculum index
+CST 396,ADVANCED TOPICS IN MACHINE LEARNING,VI,Honours,491,Verified from curriculum index
+CST 398,THEORY OF COMPUTABILITY AND COMPLEXITY,VI,Honours,491,Verified from curriculum index

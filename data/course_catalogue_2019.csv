@@ -1,0 +1,118 @@
+﻿scheme,course_code,course_title,source_pages,semester,category,verification_status
+2019,CSD 334,MINI PROJECT,692,VI,PCC,Verified from index PDF page 491
+2019,CSD 415,PROJECT PHASE I,903,VII,PWS,Verified from syllabus page
+2019,CSD 416,PROJECT PHASE II,1087,VIII,PWS,Verified from syllabus page
+2019,CSD 481,MINI PROJECT,1032,VII,PWS,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CSD 482,MINI PROJECT,1316,VIII,PWS,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CSD 496,MINI PROJECT,1321,VIII,PWS,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CSL 201,DATA STRUCTURES LAB,258,III,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CSL 202,DIGITAL LAB,359,IV,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CSL 203,OBJECT ORIENTED PROGRAMMING LAB (IN JA V A),266,III,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CSL 204,OPERATING SYSTEMS LAB,364,IV,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CSL 331,SYSTEM SOFTWARE AND MICROPROCESSORS LAB,550,V,PCC,Verified from index PDF page 490
+2019,CSL 332,NETWORKING LAB,686,VI,PCC,Verified from index PDF page 491
+2019,CSL 333,DATABASE MANAGEMENT SYSTEMS LAB,555,V,PCC,Verified from index PDF page 490
+2019,CSL 411,COMPILER LAB,896,VII,PCC,Verified from syllabus page
+2019,CSQ 413,SEMINAR,900,VII,PWS,Verified from syllabus page
+2019,CST 201,DATA STRUCTURES,224,III,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 202,Computer Organization and Architecture,322,IV,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 203,Logic System Design,235,III,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 204,Database Management Systems,334,IV,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 205,OBJECT ORIENTED PROGRAMMING USING JA V A,246,III,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 206,OPERATING SYSTEMS,349,IV,PCC,Semester assigned from syllabus page evidence; category pending
+2019,CST 281,OBJECT ORIENTED PROGRAMMING,273,III,MINOR,Semester assigned from syllabus page evidence; category pending
+2019,CST 282,Programming Methodologies,370,IV,MINOR,Semester assigned from syllabus page evidence; category pending
+2019,CST 283,Python for Machine Learning,285,III,MINOR,Semester assigned from syllabus page evidence; category pending
+2019,CST 284,MATHEMATICS FOR MACHINE LEARNING,381,IV,VAC,Semester assigned from syllabus page evidence; category pending
+2019,CST 285,DATA COMMUNICATION,296,III,MINOR,Semester assigned from syllabus page evidence; category pending
+2019,CST 286,INTRODUCTION TO COMPUTER NETWORKS,396,IV,MINOR,Semester assigned from syllabus page evidence; category pending
+2019,CST 294,COMPUTATIONAL FUNDAMENTALS FOR MACHINE LEARNING,418,IV,VAC,Semester assigned from syllabus page evidence; category pending
+2019,CST 296,Principles of Program Analysis and Verification,435,IV,HONOURS,Semester assigned from syllabus page evidence; category pending
+2019,CST 301,FORMAL LANGUAGES AND AUTOMATA THEORY,493,V,PCC,Verified from index PDF page 490
+2019,CST 302,COMPILER DESIGN,636,VI,PCC,Verified from index PDF page 491
+2019,CST 303,COMPUTER NETWORKS,505,V,PCC,Verified from index PDF page 490
+2019,CST 304,COMPUTER GRAPHICS AND IMAGE PROCESSING,647,VI,PCC,Verified from index PDF page 491
+2019,CST 305,SYSTEM SOFTWARE,517,V,PCC,Verified from index PDF page 490
+2019,CST 306,ALGORITHM ANALYSIS AND DESIGN,659,VI,PCC,Verified from index PDF page 491
+2019,CST 307,MICROPROCESSORS AND MICROCONTROLLERS,528,V,PCC,Verified from index PDF page 490
+2019,CST 308,COMPREHENSIVE COURSE WORK,673,VI,PCC,Verified from index PDF page 491
+2019,CST 309,MANAGEMENT OF SOFTWARE SYSTEMS,538,V,PCC,Verified from index PDF page 490
+2019,CST 312,FOUNDATIONS OF MACHINE LEARNING,698,VI,PEC,Verified from index PDF page 491
+2019,CST 322,DATA ANALYTICS,714,VI,PEC,Verified from index PDF page 491
+2019,CST 332,FOUNDATIONS OF SECURITY IN COMPUTING,727,VI,PEC,Verified from index PDF page 491
+2019,CST 342,AUTOMATED VERIFICATION,737,VI,PEC,Verified from index PDF page 491
+2019,CST 362,PROGRAMMING IN PYTHON,747,VI,PEC,Code discrepancy: syllabus p747 says CST 362; index p491 says CSL 362
+2019,CST 372,DATA AND COMPUTER COMMUNICATION,759,VI,PEC,Verified from index PDF page 491
+2019,CST 381,CONCEPTS IN SOFTWARE ENGINEERING,563,V,Minor,Verified from index PDF page 490
+2019,CST 382,INTRODUCTION TO SOFTWARE TESTING,770,VI,Minor,Verified from index PDF page 491
+2019,CST 383,CONCEPTS IN MACHINE LEARNING,574,V,Minor,Verified from index PDF page 490
+2019,CST 384,CONCEPTS IN DEEP LEARNING,784,VI,Minor,Verified from index PDF page 491
+2019,CST 385,CLIENT SERVER SYSTEMS,588,V,Minor,Verified from index PDF page 490
+2019,CST 386,WIRELESS NETWORKS AND IoT APPLICATIONS,798,VI,Minor,Verified from index PDF page 491
+2019,CST 393,CRYPTOGRAPHIC ALGORITHMS,599,V,Honours,Verified from index PDF page 490
+2019,CST 394,NETWORK SECURITY,810,VI,Honours,Verified from index PDF page 491
+2019,CST 395,NEURAL NETWORKS AND DEEP LEARNING,611,V,Honours,Verified from index PDF page 490
+2019,CST 396,ADVANCED TOPICS IN MACHINE LEARNING,822,VI,Honours,Verified from index PDF page 491
+2019,CST 397,PRINCIPLES OF MODEL CHECKING,624,V,Honours,Verified from index PDF page 490
+2019,CST 398,THEORY OF COMPUTABILITY AND COMPLEXITY,838,VI,Honours,Verified from index PDF page 491
+2019,CST 401,ARTIFICIAL INTELLIGENCE,886,VII,PCC,Verified from syllabus page
+2019,CST 402,DISTRIBUTED COMPUTING,1075,VIII,PCC,Verified from syllabus page
+2019,CST 404,COMPREHENSIVE COURSE VIVA,1086,VIII,PCC,Verified from syllabus page
+2019,CST 413,MACHINE LEARNING,911,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 414,DEEP LEARNING,1097,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 415,INTRODUCTION TO MOBILE COMPUTING,980,VII,OEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 416,FORMAL METHODS AND TOOLS IN SOFTWARE ENGINEERING,1178,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 418,HIGH PERFORMANCE COMPUTING,1240,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 423,CLOUD COMPUTING,925,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 424,PROGRAMMING PARADIGMS,1110,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 425,INTRODUCTION TO DEEP LEARNING,989,VII,OEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 426,CLIENT SERVER ARCHITECTURE,1188,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 428,BLOCKCHAIN TECHNOLOGIES,1251,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 433,SECURITY IN COMPUTING,936,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 434,NETWORK SECURITY PROTOCOLS,1121,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 435,COMPUTER GRAPHICS,1000,VII,OEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 436,PARALLEL COMPUTING,1197,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 438,IMAGE PROCESSING TECHNIQUE,1261,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 443,MODEL BASED SOFTWARE DEVELOPMENT,946,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 444,SOFT COMPUTING,1130,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 445,PYTHON FOR ENGINEERS,1009,VII,OEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 446,DATA COMPRESSION TECHNIQUES,1209,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 448,INTERNET OF THINGS,1272,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 454,FUZZY SET THEORY AND APPLICATIONS,1142,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 455,OBJECT ORIENTED CONCEPTS,1019,VII,OEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 458,SOFTWARE TESTING,1282,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 463,WEB PROGRAMMING,955,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 464,EMBEDDED SYSTEMS,1155,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 466,DATA MINING,1217,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 468,BIOINFORMATICS,1295,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 473,NATURAL LANGUAGE PROCESSING,968,VII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 474,COMPUTER VISION,1168,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 476,MOBILE COMPUTING,1230,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 478,COMPUTATIONAL LINGUISTICS,1305,VIII,PEC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 495,CYBER FORENSICS,1037,VII,VAC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 497,REINFORCEMENT LEARNING,1048,VII,VAC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CST 499,LOGIC FOR COMPUTER SCIENCE,1062,VII,VAC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,CYL 120,ENGINEERING CHEMISTRY LAB,"92, 202",I,BSC,Verified from syllabus page; first-year evidence
+2019,CYT 100,ENGINEERING CHEMISTRY,"30, 132",I,BSC,Verified from syllabus page; first-year evidence
+2019,ESL 120,CIVIL & MECHANICAL WORKSHOP,"94, 204",I,,Verified from syllabus page; first-year evidence
+2019,ESL 130,ELECTRICAL & ELECTRONICS WORKSHOP,"99, 209",I,ESC,Verified from syllabus page; first-year evidence
+2019,EST 100,ENGINEERING MECHANICS,"39, 141",I,ESC,Verified from syllabus page; first-year evidence
+2019,EST 102,PROGRAMING IN C,191,II,ESC,Verified from syllabus page; first-year evidence
+2019,EST 110,ENGINEERING GRAPHICS,"52, 154",I,ESC,Verified from syllabus page; first-year evidence
+2019,EST 120,BASICS OF CIVIL & MECHANICAL ENGINEERING,"61, 163",I,ESC,Verified from syllabus page; first-year evidence
+2019,EST 130,BASICS OF ELECTRICAL AND ELECTRONICS ENGINEERING,"73, 175",I,ESC,Verified from syllabus page; first-year evidence
+2019,HUN 101,LIFE SKILLS,84,I,MNC,Verified from syllabus page; first-year evidence
+2019,HUN 102,PROFESSIONAL COMMUNICATION,186,II,MNC,Verified from syllabus page; first-year evidence
+2019,HUT 200,PROFESSIONAL ETHICS,"462,484",IV,,Semester assigned from syllabus page evidence; category pending
+2019,HUT 300,Industrial Economics & Foreign Trade,861,VI,HSMC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,HUT 310,Management for Engineers,872,VI,HMC,Candidate - needs verification; Semester assigned from PDF page order and heading evidence
+2019,MAT 101,LINEAR ALGEBRA AND CALCULUS,2,I,BSC,Verified from syllabus page; first-year evidence
+2019,MAT 102,"VECTOR CALCULUS, DIFFERENTIAL EQUATIONS AND TRANSFORMS",103,II,BSC,Verified from syllabus page; first-year evidence
+2019,MAT 203,DISCRETE MATHEMATICAL STRUCTURES,213,III,BSC,Semester assigned from syllabus page evidence; category pending
+2019,MAT 206,GRAPH THEORY,307,IV,BSC,Semester assigned from syllabus page evidence; category pending
+2019,MCN 201,SUSTAINABLE ENGINEERING,448,IV,,Semester assigned from syllabus page evidence; category pending
+2019,MCN 202,CONSTITUTION OF INDIA,469,IV,,Semester assigned from syllabus page evidence; category pending; MCN 202 title corrected from syllabus page 469
+2019,MCN 301,DISASTER MANAGEMENT,849,VI,Non-Credit,Category verified from syllabus page 849; semester assigned from PDF page order and heading evidence
+2019,PHL 120,ENGINEERING PHYSICS LAB,"90, 200",I,BSC,Verified from syllabus page; first-year evidence
+2019,PHT 100,ENGINEERING PHYSICS A (FOR CIRCUIT BRANCHES),"10, 112",I,BSC,Verified from syllabus page; first-year evidence
+2019,PHT 110,ENGINEERING PHYSICS B (FOR NON-CIRCUIT BRANCHES),"20, 122",II,BSC,Verified from syllabus page; first-year evidence

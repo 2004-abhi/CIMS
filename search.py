@@ -246,6 +246,7 @@ def number_in_words(number):
 # 5. CHROMADB SEMANTIC SEARCH
 # ==========================================
 
+
 def search_chromadb(question, top_k=5):
 
     count = collection.count()
@@ -261,10 +262,11 @@ def search_chromadb(question, top_k=5):
     results = collection.query(
         query_embeddings=[question_embedding],
         n_results=min(top_k, count),
-        include=["documents", "distances"]
+        include=["documents", "metadatas", "distances"]
     )
 
     documents = results.get("documents", [[]])[0]
+    metadatas = results.get("metadatas", [[]])[0]
     distances = results.get("distances", [[]])[0]
 
     if not documents:
@@ -274,15 +276,21 @@ def search_chromadb(question, top_k=5):
 
     relevant_documents = []
 
-    for index, (document, distance) in enumerate(
-        zip(documents, distances), start=1
+    for index, (document, metadata, distance) in enumerate(
+        zip(documents, metadatas, distances), start=1
     ):
+        metadata = metadata or {}
+
         print(f"\nResult {index}")
         print(f"Distance: {distance:.4f}")
-        print(document[:500])
+        print(f"Page: {metadata.get('page', 'unknown')}")
+        print(f"Semester: {metadata.get('semester', 'unknown')}")
+        print(f"Course codes: {metadata.get('course_codes', 'unknown')}")
+        print("Document preview:")
+        print((document or "")[:500])
         print("-" * 50)
 
-        relevant_documents.append(document)
+        relevant_documents.append(document or "")
 
     return "\n\n".join(relevant_documents)
 
@@ -291,6 +299,7 @@ def search_chromadb(question, top_k=5):
 # 6. MAIN SEARCH FUNCTION
 # ==========================================
 
+
 def search_syllabus(question, top_k=5):
 
     question = question.strip()
@@ -298,15 +307,121 @@ def search_syllabus(question, top_k=5):
     if not question:
         return "Please enter a question."
 
-    # Try the known MAT 101 syllabus first
-    course_answer = search_mat101(question)
+    question_lower = question.lower()
 
-    if course_answer is not None:
-        print("\nUsing course-specific MAT 101 syllabus.")
-        return course_answer
+    # 1. Check CST 204 first to prevent incorrect MAT 101 answers.
+    dbms_keywords = [
+        "cst 204",
+        "cst204",
+        "database management systems",
+        "dbms"
+    ]
 
-    # Fall back to semantic search for other subjects
+    if any(keyword in question_lower for keyword in dbms_keywords):
+
+        pages = [334, 337, 338]
+
+        result = collection.get(
+            where={"page": {"$in": pages}},
+            include=["documents", "metadatas"]
+        )
+
+        documents = result.get("documents", [])
+        metadatas = result.get("metadatas", [])
+
+        relevant_sections = []
+
+        for document, metadata in zip(documents, metadatas):
+            metadata = metadata or {}
+            text = document or ""
+            page = metadata.get("page")
+
+            if page == 334:
+                if (
+                    "CST 204" in text
+                    or "Database Management" in text
+                ):
+                    relevant_sections.append(text)
+
+            elif page in [337, 338]:
+                if "Module" in text or "module" in text.lower():
+                    relevant_sections.append(text)
+
+        
+        if relevant_sections:
+
+            # If the user asks for one specific module,
+            # return only that module.
+            import re
+
+            module_match = re.search(
+                r"\bmodule\s*[-]?\s*(\d+)\b",
+                question_lower
+            )
+
+            if module_match:
+                module_number = int(module_match.group(1))
+
+                all_text = "\n".join(relevant_sections)
+
+                module_pattern = (
+                    rf"Module\s*[-]?\s*{module_number}\s*:"
+                )
+
+                match = re.search(
+                    module_pattern,
+                    all_text,
+                    re.IGNORECASE
+                )
+
+                if match:
+                    start = match.start()
+
+                    next_module = re.search(
+                        r"Module\s*[-]?\s*\d+\s*:",
+                        all_text[match.end():],
+                        re.IGNORECASE
+                    )
+
+                    end = (
+                        match.end() + next_module.start()
+                        if next_module
+                        else len(all_text)
+                    )
+
+                    return all_text[start:end].strip()
+
+                return (
+                    f"Module {module_number} was not found "
+                    "in the retrieved CST 204 syllabus."
+                )
+
+            return "\n\n".join(relevant_sections)
+
+
+        return (
+            "CST 204 was identified, but its syllabus text "
+            "was not retrieved."
+        )
+
+    # 2. Handle MAT 101 only when explicitly identified.
+    mat101_keywords = [
+        "mat 101",
+        "mat101",
+        "linear algebra and calculus",
+        "linear algebra & calculus"
+    ]
+
+    if any(keyword in question_lower for keyword in mat101_keywords):
+        course_answer = search_mat101(question)
+
+        if course_answer is not None:
+            print("\nUsing course-specific MAT 101 syllabus.")
+            return course_answer
+
+    # 3. Use semantic search for other subjects.
     return search_chromadb(question, top_k)
+
 
 
 # ==========================================
