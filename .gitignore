@@ -1,40 +1,39 @@
-# Python environment and cache
+# Python virtual environments
 venv/
 .venv/
+
+# Python cache files
 __pycache__/
 *.py[cod]
 
-# Secrets
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# Generated vector database
+# ChromaDB local database
 chroma_db/
+chroma_db_backup/
 
-# Generated PDF extraction and audit output
+# Model files
+*.pkl
+*.joblib
+
+# Generated logs
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated PDF processing and audit files
 data/pdf_full_text.jsonl
-data/pdf_page_inventory.csv
-
-# Temporary review notes
-before_semester_3.txt
-index_check.txt
-index_review.txt
-page_209_review.txt
-repeated_pages_review.txt
-semester_3_4.txt
-semester_indexes.txt
-
-# Generated review reports
-data/course_catalogue_2019_backup.csv
-data/course_catalogue_2019_before_*.csv
-data/course_duplicate_report.csv
-data/course_heading_review_v3.csv
-data/first_year_update_review.csv
-data/sem3_sem4_update_review.csv
-data/semester_boundary_review.csv
-
-# Generated catalogue review files
-data/course_candidates.txt
-data/course_heading_candidates.csv
-data/course_heading_review_v2.csv
-data/course_page_review.csv
 data/semester_page_index.csv
+data/course_heading_candidates.csv
+data/v3_verified_page_preview.csv
+data/v3_catalogue_page_matches.csv
+data/first_year_course_evidence.csv
+data/sem3_sem4_course_evidence.csv
+data/verified_index_evidence.csv

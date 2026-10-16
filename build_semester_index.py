@@ -39,9 +39,11 @@ def semester_number(value):
     }
     return int(value) if value.isdigit() else roman[value]
 
+
 def classify_page(text):
     upper = text.upper()
 
+    # Identify question papers first
     if re.search(
         r"MODEL\s+QUESTION\s+PAPER|"
         r"SAMPLE\s+QUESTION\s+PAPER|"
@@ -51,11 +53,26 @@ def classify_page(text):
     ):
         return "question_paper_or_valuation"
 
-    if (
+    # Identify pages with an explicit course heading
+    has_course_code = bool(
+        re.search(
+            r"\b(?:MAT|CST|CSL|CSD|CSQ|EST|ESL|PHT|PHL|"
+            r"CYT|CYL|HUN|HUT|MCN|MCT|PEC|PCC|OEC|VAC|UK|ITT)"
+            r"\s*\d{3}\b",
+            upper,
+        )
+    )
+
+    has_course_details = (
         "CATEGORY" in upper
-        and re.search(r"\bCREDIT\b", upper)
-        and ("PREAMBLE" in upper or "COURSE OUTCOMES" in upper)
-    ):
+        and re.search(r"\bCREDIT(?:S)?\b", upper)
+        and (
+            "PREAMBLE" in upper
+            or "COURSE OUTCOMES" in upper
+        )
+    )
+
+    if has_course_code and has_course_details:
         return "likely_course_syllabus"
 
     if "PREAMBLE" in upper or "COURSE OUTCOMES" in upper:
@@ -68,6 +85,7 @@ def classify_page(text):
         return "possible_module_content"
 
     return "other_or_needs_review"
+
 
 page_rows = []
 course_rows = []
